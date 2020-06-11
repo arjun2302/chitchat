@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/chat.css">
+    <title>CHIT-CHAT</title>
+</head>
+<body>
+    <nav>
+        <a href="#" class=""><img class="logo" src="chat.webp" alt="CHIT-CHAT"></a> 
+        <h1 class="appname">CHIT-CHAT</h1>
+    </nav>    
+    <div class="container">
+        <div class="users">
+            <h4>People Online:  &nbsp; <h6 class="namesofusers"></h6> </h4>
+        </div>
+          <!----<div class="message right">Arjun: How are you ?</div>
+            <div class="message left">Rohan: I am Fine. Wbu?</div>--->
+    </div>
+        <div class="send">
+            <form action="#" id="send">
+                <input type="text" name="messageinp" id="messageinp" placeholder=" Enter text">
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+        <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+        <script defer src="js/chat.js"></script>
+</body>
+</html>

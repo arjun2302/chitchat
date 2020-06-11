@@ -1,0 +1,84 @@
+.logo{
+    display: block;
+    margin-left: 0px;
+    height: 90px;
+    width: 90px;
+}
+body{
+    background-color: #7fc1ec;
+}
+.appname{
+    position: relative;
+    margin-top: -57px;
+    margin-left: 82px;
+    color: #000000;
+    font-family: 'Pacifico', cursive;
+}
+.container{
+    max-width: 955px;
+    background-color:  rgb(208, 226, 230);
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.users{
+    max-width: 955px;
+    margin: auto;
+    position: sticky;
+    border: 2px solid rgb(208, 226, 230);;
+    height: 72px;
+    background-color: #c1d2e2;
+   
+}
+
+.message{
+    background-color: #d0f2f9;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid ghostwhite;
+    border-radius: 8px;
+    font-family: 'Indie Flower', cursive;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.send{
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    max-width: 985px;
+    width: 100%;
+}
+#messageinp{
+    width: 92%;
+    height: 30px;
+    border: 2px solid #dccdcd;
+    border-radius: 8px;
+    font-family: 'Indie Flower', cursive;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid burlywood;
+    border-radius: 6px;
+    height: 34px;
+    font-family: 'Indie Flower', cursive;
+}
+h4{
+    margin-left: 18px;
+    font-family: 'Pacifico', cursive;
+}
+h6{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 136px;
+    margin-bottom: -43px;
+    position: relative;
+}
